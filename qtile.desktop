@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Qtile
+Comment=Tiling window manager
+Exec=qtile start
+Type=Xsession
