@@ -4,7 +4,7 @@
 sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
 
 # Install the full Python 3 Suite, pip, git and all Dependencies
-sudo apt update && sudo apt install python3-full python3-pip libpangocairo-1.0-0 python3-cffi python3-xcffib git
+sudo apt update && sudo apt install python3-full python3-pip libpangocairo-1.0-0 python3-cffi python3-xcffib git -y
 
 # Install cairocffi using pip
 pip install --no-cache-dir cairocffi
